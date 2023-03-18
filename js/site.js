@@ -2820,7 +2820,7 @@
       });
       ko.applyBindings(b);
       if (MobileDetect()) {
-        $('#main-controls .silk-icon').css('display', 'none');
+        $('#main-controls .silk-icon').css('display', '');
       }
       key('n, x, space', _.throttle(function() {
         b.clear();
